@@ -1,0 +1,28 @@
+body{
+    background-color: #5F9EA0 ;
+    background-repeat: no-repeat;
+   width: 100vw;
+    height: 100vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.image{
+
+   width: 400px;
+   height: 400px;
+   text-align: center;
+   background-image: url(../images/286260.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+
