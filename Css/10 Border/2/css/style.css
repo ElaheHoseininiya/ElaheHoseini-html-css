@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(41, 39, 39);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    width: 90%;
+  
+}
+.box1{
+    height: 150px;
+    background: linear-gradient(#000808,#00847A);
+    color: #ffffff;
+}
+.box2{
+    height: 100px;
+    background-image: url(../image/image.jpg);
+    color: #ffffff;
+}
