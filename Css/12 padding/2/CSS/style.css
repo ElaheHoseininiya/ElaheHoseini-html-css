@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image{
+    
+    background-image: url(../imge/25563.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    filter: blur(3px);
+    
+}
+.box{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+h1{
+    padding: 20px;
+    font-size: 45px;
+}
+
+p{
+    padding: 50px;
+}
+
+a{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    display: inline-block;
+    border: solid 2px;
+    text-decoration: none;
+    color: black ;
+    background-color: white;
+}
+
