@@ -1,28 +1,24 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #008B8B;
 }
 .container{
-    margin: 80px auto 0   350px;
+    margin: 80px auto;
     width: 300px;
-}
-.outline{
-
-   outline: 20px solid rgb(47, 47, 47);
-}
-.black{
-    border: 15px solid black;
+    height: 500px;
+    border: 35px solid rgb(45, 44, 44);
 }
 
-.white{
-    border: solid 30px white;
-}
-.text{
-    background-color:#008C8C;
+.box{
+    background-color: #086352;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    border: 20px solid rgb(247, 245, 245);
+    outline: 15px solid black;
 }
 
 
