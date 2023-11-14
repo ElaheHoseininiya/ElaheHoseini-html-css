@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #008B8B;
+}
+.container{
+    margin: 80px auto 0   350px;
+    width: 300px;
+}
+.outline{
+
+   outline: 20px solid rgb(47, 47, 47);
+}
+.black{
+    border: 15px solid black;
+}
+
+.white{
+    border: solid 30px white;
+}
+.text{
+    background-color:#008C8C;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
