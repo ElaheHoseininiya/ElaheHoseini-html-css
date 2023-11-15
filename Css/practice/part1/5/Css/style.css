@@ -1,5 +1,6 @@
 *{
-     margin: 0px;
+    padding: 0;
+     margin: 0;
      box-sizing: border-box; 
 }
 body{
@@ -8,8 +9,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+     height: 100%;
+     width: 100%;
 }
-.PIC{
+.pic{
     
     width: 280px;
     height:150px;
@@ -17,7 +20,7 @@ body{
     border-radius: 15px 15px 0px 0px ;
 }
 
-.MORE{
+.more{
     background-color: black;
     color: white;
     height: 30px;
@@ -28,7 +31,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.TEXT{
+.text{
     padding-top: 25px;
     margin: 0px 40% 0px auto;
     width: 280px;
