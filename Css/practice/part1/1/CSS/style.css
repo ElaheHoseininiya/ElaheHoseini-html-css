@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,7 +11,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.white{
+
+.title{
    
     color: white;
     text-align: left;
@@ -18,22 +20,23 @@ body{
    font-size: xx-large;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.black{
+.text{
     text-align: center;
     font-size: xx-large;
 }
 .box{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    width: 150px;
    height:30px;
-    border-style : solid;
+   border-style : solid;
    border-color: white;
-   border-radius: 8px ;
-   background-image: linear-gradient(#FF5815,#F4E500);
+   border-radius: 8px;
+   background-image:linear-gradient(#FF5815,#F4E500);
    margin: 10% auto auto auto ;
- 
+   text-align: center;
 }
-.MoreDetails{
+a{
     text-align: center;
     padding-top: 5px;
+    text-decoration: none;
 }
