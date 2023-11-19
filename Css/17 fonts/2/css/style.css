@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'fonts';
+
+    src :
+    
+    
+    url(../fonts/Raleway-VariableFont_wght.ttf),
+    url(../fonts/Raleway-Italic-VariableFont_wght.ttf),
+    url(../fonts/static/Raleway-Thin.ttf),
+    
+    
+    url(../fonts/Raleway-Italic-VariableFont_wght.ttf),
+    url(../fonts/Raleway-VariableFont_wght.ttf),
+    url(../fonts/static/Raleway-ExtraBoldItalic.ttf),
+    url(../fonts/static/Raleway-BlackItalic.ttf ),
+    url(../fonts/static/Raleway-MediumItalic.ttf),
+    url(../fonts/static/Raleway-ThinItalic.ttf),
+    url(../fonts/static/Raleway-ThinItalic.ttf)
+    ;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #808080;
+}
+.title{
+    font-family: 'Tilt Prism', sans-serif;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+}
+
+.paragragh{
+    font-family: 'fonts';
+    font-size: 5px;
+    text-align: justify;
+    color: white;
+    margin:10px 20px;
+}
