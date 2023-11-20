@@ -11,10 +11,10 @@ body{
 
 
 .box{
-      width: 70%;
+      width: 700px;
       height: 900px;
       background-color: #26202F;
-      margin: 5% auto 5%  auto;
+      margin: 20px auto 20px auto;
       border-radius: 15px;
       padding: 40PX;
 }
@@ -31,7 +31,7 @@ a{
     text-decoration: none;
 }
 ul{
-    margin: 5%;
+    margin: 50px;
     
 }
 .part1 h1{
