@@ -10,17 +10,15 @@ body{
 }
 
 
-.background{
+.box{
       width: 70%;
       height: 900px;
       background-color: #26202F;
       margin: 5% auto 5%  auto;
       border-radius: 15px;
       padding: 40PX;
-
-
 }
-.background p{
+.box p{
     color: white;
     border-bottom: 2PX solid white;
     padding-bottom: 30px;
@@ -36,7 +34,7 @@ ul{
     margin: 5%;
     
 }
-.header-blue{
+.part1 h1{
     text-align: center;
     padding: 20px;
     color: #181E74;
@@ -46,20 +44,20 @@ ul{
     text-decoration: underline solid 2px blue;
 }
 
-.header-red h1{
+.part2 h1{
     text-align: center;
     padding: 20px;
     font-size: 25px;
     text-shadow:2px 2px 15px  rgb(238, 7, 7);
 }
 
-.text p{
+.part2 p{
     text-indent: 10px;
     color: yellow;
     font-size: 12px;
     border-bottom: 2PX solid rgb(12, 12, 12);
 
 }
-.text span{
+.part2 span{
     text-decoration: underline 2px wavy red;
 }
