@@ -1,14 +1,9 @@
 @font-face {
     font-family: 'fonts';
-
     src :
-    
-    
     url(../fonts/Raleway-VariableFont_wght.ttf),
     url(../fonts/Raleway-Italic-VariableFont_wght.ttf),
-    url(../fonts/static/Raleway-Thin.ttf),
-    
-    
+    url(../fonts/static/Raleway-Thin.ttf),  
     url(../fonts/Raleway-Italic-VariableFont_wght.ttf),
     url(../fonts/Raleway-VariableFont_wght.ttf),
     url(../fonts/static/Raleway-ExtraBoldItalic.ttf),
@@ -21,18 +16,19 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #808080;
 }
-.title{
+.container h1{
     font-family: 'Tilt Prism', sans-serif;
    text-align: center;
    font-weight: bold;
    margin-top: 15px;
 }
 
-.paragragh{
+.container p{
     font-family: 'fonts';
     font-size: 5px;
     text-align: justify;
