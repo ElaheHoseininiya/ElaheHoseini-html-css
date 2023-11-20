@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+
+.box1{
+    height: 250px;
+    width: 350px;
+    border: 2px solid blue;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 5px -4px green, 9px -9px yellow, 14px -14px palevioletred, 18px -18px red;
+}
+
+
+h1{
+    padding-bottom: 20px;
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    box-shadow: 5px 3px 5px #cdc7c7;
+    margin: auto;
+}
