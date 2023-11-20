@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
   background-image: linear-gradient(#D73E2F,#0361F7);
@@ -9,7 +10,7 @@ body{
 }
 
 
-.background{
+.box{
     width: 70%;
     height: 900px;
     background-color: #26202F;
@@ -19,7 +20,7 @@ body{
 }
 
 
-#span-A{
+span a{
 
     border-bottom:2px double #0057FF;
     color:#01FFF2;
@@ -39,15 +40,12 @@ ul li a{
     text-align: center;
     color: #181E74;
     text-shadow:2px 2px 5px  white; 
-    
     font-family:'Whisper';
     font-size: 15px;
 
   
 }
-.text{
-
-   
+.text1{
     padding-bottom: 50px;
     text-align: justify;
     color: white;
@@ -59,7 +57,6 @@ ul li a{
     text-align: center;
     color: #000000;
     text-shadow:2px 2px 5px  rgb(245, 9, 9); 
-        font-size: 15px;
-
+    font-size: 15px;
     font-family: 'Whisper';
 }
