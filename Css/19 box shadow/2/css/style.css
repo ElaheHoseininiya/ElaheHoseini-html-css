@@ -5,6 +5,7 @@
 }
 .container{
     text-align: center;
+   
 }
 .box1{
     height: 250px;
@@ -17,5 +18,12 @@
     height: 250px;
     width: 300px;
     margin:  auto;
-    box-shadow: 3px 20px 19px 6px #d1caca inset;
+    box-shadow: 1px 11px 19px 20px #f1e7e7 inset;
+}
+.heading h1{
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.paragragh p{
+    padding: 20px;
 }
