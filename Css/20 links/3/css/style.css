@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(2, 0, 0);
+}
+.heading h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.box {
+  margin: 50px auto;
+  text-align: justify;
+  padding: 30px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  color: rgb(81, 75, 75);
+}
+.paragragh p,
+.heading h1 {
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.link a {
+  display: inline-block;
+  height: 30px;
+  background-color: white;
+  width: 100px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: rgb(23, 23, 26);
+  border: 2px solid black;
+}
+
+.box:hover {
+  background: linear-gradient(rgb(49, 49, 238), rgb(227, 5, 150));
+  color: white;
+}
+.box:hover h1 {
+  color: black;
+}
+
+.link a:hover {
+  background-image: linear-gradient(rgb(5, 5, 66), rgb(9, 15, 185));
+  color: white;
+  border: none;
+}

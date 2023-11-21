@@ -1,0 +1,19 @@
+button {
+  height: 60px;
+  width: 80px;
+  background-color: rgb(241, 11, 241);
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button:active {
+  background-color: rgb(75, 2, 75);
+}
+
+button a:hover {
+  font-size: 20px;
+  color: rgb(103, 219, 255);
+}
