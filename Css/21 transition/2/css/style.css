@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 250px;
+  text-align: center;
+  margin: 50px auto;
+  border: 2px solid gray;
+  background-color: black;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.heading h1 {
+  padding: 30px;
+  color: rgb(46, 224, 209);
+  font-size: 20px;
+}
+
+.box:hover {
+  width: 350px;
+
+  padding: 20px;
+  background-color: aquamarine;
+  border-color: silver;
+  box-shadow: -2px 1px 20px 5px #cbc1c1 inset;
+  .heading h1 {
+    color: white;
+  }
+}
+.paragragh p {
+  text-align: justify;
+  font-size: 10px;
+}
