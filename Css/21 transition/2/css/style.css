@@ -8,13 +8,17 @@ body {
 }
 .box {
   width: 250px;
+  height: 200px;
+  padding: 20px;
   text-align: center;
   margin: 50px auto;
   border: 2px solid;
   border-color: gray gray rgb(223, 221, 211);
   background-color: black;
-  transition-property: all;
-  transition-duration: 2s;
+ 
+  transition-property:width , background-color , border-color, box-shadow ;
+  transition-duration:5s ,2s ,3s ,1s;
+  transition-delay: 0s , 0s,1s;
 }
 .heading h1 {
   padding: 30px;
@@ -31,7 +35,7 @@ body {
   padding: 20px;
   background-color: aquamarine;
   border-color: silver;
-  box-shadow: -2px 1px 20px 5px #cbc1c1 inset;
+  box-shadow: -2px 1px 20px 5px #c9c9c9 inset;
   .heading h1 {
     color: white;
   }
@@ -43,6 +47,6 @@ body {
   text-align: justify;
   font-size: 10px;
   transition-property: color;
-  transition-delay: 2s;
-  transition-duration: 3s;
+  transition-delay: 1s;
+  transition-duration: 1s;
 }
