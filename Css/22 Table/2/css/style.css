@@ -6,23 +6,29 @@
 
 th,
 td {
-  border: 1px solid gray;
   padding: 15px;
+  text-align: center;
+  border: 2px dotted gray;
 }
-
+td {
+  border-radius: 30px;
+  box-shadow: inset 2px 1px 20px 12px #e2edff;
+}
 table {
-  margin: auto;
+  margin: 100px auto;
   border-collapse: collapse;
   width: 50%;
+  box-shadow: inset 1px 2px 20px 14px #684a4f;
 }
 tr:nth-child(even) {
   background-color: rgb(223, 183, 183);
 }
-tr:hover {
-  background-color: #ddd;
+td:hover {
+  background-color: #e19af7;
+  color: rgb(28, 28, 189);
 }
 
 th {
-  background-color: #4a065f;
+  background-color: #cf7eba;
   color: cornsilk;
 }
