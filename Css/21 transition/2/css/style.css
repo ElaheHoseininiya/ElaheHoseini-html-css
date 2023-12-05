@@ -15,23 +15,21 @@ body {
   border: 2px solid;
   border-color: gray gray rgb(223, 221, 211);
   background-color: black;
- 
-  transition-property:width , background-color , border-color, box-shadow ;
-  transition-duration:5s ,2s ,3s ,1s;
-  transition-delay: 0s , 0s,1s;
+  transition: margin-top 1s, width 3s, height 2s, 
+  background-color 3s,
+    border-color 1s, box-shadow 3s;
 }
 .heading h1 {
   padding: 30px;
   color: rgb(46, 224, 209);
   font-size: 20px;
-  transition-property: color;
-  transition-duration: 3s;
-  transition-delay: 2s;
+  transition: 3s 2s;
 }
 
 .box:hover {
   width: 350px;
-
+  height: 220px;
+  margin-top: 100px;
   padding: 20px;
   background-color: aquamarine;
   border-color: silver;
@@ -46,7 +44,5 @@ body {
 .paragragh p {
   text-align: justify;
   font-size: 10px;
-  transition-property: color;
-  transition-delay: 1s;
-  transition-duration: 1s;
+  transition: 3s 2s;
 }
