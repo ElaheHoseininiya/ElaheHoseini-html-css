@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(231deg, rgb(74, 5, 88), rgb(138, 201, 206));
+  height: 100vh;
+}
+
+.container {
+  padding-top: 50px;
+  margin: auto;
+  width: 100%;
+}
+table,
+td,
+th {
+  color: white;
+}
+table {
+  margin: 0px auto;
+  /* border: 1px solid #4c5666; */
+  box-shadow: -1px 0px 9px 1px gray;
+}
+th {
+  background-color: cadetblue;
+  border-spacing: 2px;
+}
+tr {
+  background: linear-gradient(to left, rgb(74, 5, 88), rgb(138, 201, 206));
+
+
+  border-spacing: 5px;
+  transition-delay: 2s;
+}
+
+th,
+td {
+  padding: 10px;
+}
+td:hover {
+  background: linear-gradient(rgb(124, 178, 248), rgb(140, 56, 209));
+}
+td tr {
+  visibility: hidden;
+}
+
+.container:hover td tr {
+  visibility: visible;
+}
+
+th {
+  visibility: initial;
+}
+
+table {
+  visibility: hidden;
+}
+.container:hover table {
+  visibility: visible;
+}
