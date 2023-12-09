@@ -11,8 +11,6 @@ body {
 
 .container {
   padding-top: 50px;
-  margin: auto;
-  width: 100%;
 }
 table,
 td,
@@ -23,19 +21,16 @@ table {
   margin: 0px auto;
   /* border: 1px solid #4c5666; */
   box-shadow: -1px 0px 9px 1px gray;
+  
 }
 th {
   background-color: cadetblue;
   border-spacing: 2px;
 }
 tr {
-  background: linear-gradient(to left, rgb(74, 5, 88), rgb(138, 201, 206));
-
-
-  border-spacing: 5px;
-  transition-delay: 2s;
+  background-color: rgb(113, 124, 146);
+  border-spacing: 2px;
 }
-
 th,
 td {
   padding: 10px;
@@ -43,21 +38,22 @@ td {
 td:hover {
   background: linear-gradient(rgb(124, 178, 248), rgb(140, 56, 209));
 }
-td tr {
+caption{
   visibility: hidden;
 }
-
-.container:hover td tr {
-  visibility: visible;
-}
-
-th {
+.container:hover caption  {
   visibility: initial;
 }
 
-table {
-  visibility: hidden;
+ td{
+  visibility: collapse;
 }
-.container:hover table {
+
+.container:hover td{
   visibility: visible;
+}
+ table th{
+  visibility: initial;
+  
+
 }
