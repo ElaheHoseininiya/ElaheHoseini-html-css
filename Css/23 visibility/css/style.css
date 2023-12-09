@@ -28,25 +28,30 @@ th {
   border-spacing: 2px;
 }
 tr {
-  background-color: rgb(113, 124, 146);
+  /* background-color: rgb(33, 39, 124); */
   border-spacing: 2px;
 }
 th,
 td {
   padding: 10px;
+  /* background-color: rgb(33, 39, 124); */
+
 }
 td:hover {
   background: linear-gradient(rgb(124, 178, 248), rgb(140, 56, 209));
 }
 caption{
   visibility: hidden;
+  transition-duration: 2s;
 }
 .container:hover caption  {
   visibility: initial;
 }
 
  td{
+  background-color: rgb(146, 78, 129);
   visibility: collapse;
+  transition-delay: 1s;
 }
 
 .container:hover td{
@@ -56,4 +61,12 @@ caption{
   visibility: initial;
   
 
+}
+
+table{
+  visibility: hidden;
+  transition-duration: 2s;
+}
+.container:hover table{
+  visibility: visible;
 }
