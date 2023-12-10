@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,lightgray,rgb(112, 110, 110));
+}
+.box{
+    border: 2px solid white;
+    height: 350px;
+    width: 250px;
+    margin: 20px  auto;
+    text-align: center;
+    position: relative;
+    transition: all 2s;
+}
+
+.box .text-1 p{
+    font-size: 20px;
+    color: aqua;
+    /* font-family:; */
+    font-family:   'permanent marker',sans-serif;
+  
+}
+
+   
+
+
+.box:hover{
+    background: linear-gradient(to right, rgb(63, 210, 246),rgb(38, 52, 177));
+    
+    #icon-s{
+        display: none;
+    }
+   .text-1{
+        font-size: 40px;
+   
+        color: black;
+        position: absolute;
+        bottom: 280PX;
+        left: 80px;
+    }
+ 
+    .text-2 {
+    
+        margin-top: 70px;
+        display: block;
+        text-align: justify;
+    }
+
+ }
+
+
+
+ .text-2{
+  
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+    display: none;
+   
+
+}
+
