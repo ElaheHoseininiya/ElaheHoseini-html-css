@@ -8,52 +8,36 @@ body {
   padding: 0;
 }
 
-/* .container{
-    height: 550px;
-    width: 200px;
-    background-color: aliceblue;
-    margin:50px auto;
-    display: none;
-} */
-
 .box {
   margin: 50px auto;
   height: auto;
   width: 200px;
-  /* background-image: linear-gradient(to right,green,yellow); */
   text-align: center;
   border: 2px solid white;
-  background-color: white;
-  transition:all  2s;
-  
+  background-image: linear-gradient(
+    to right,
+    rgb(23, 24, 23),
+    rgb(158, 158, 157)
+  );
 }
-.background {
-  background-image: linear-gradient(to right, green, yellow);
-}
-.code p {
-  position: relative;
-  bottom: 12px;
+
+.box h1 {
   color: rgb(75, 60, 60);
   font-family: tahoma, sans-serif;
 }
-.paragragh {
-  background-color: rgb(253, 253, 253);
+.box p {
+  background-color: white;
   text-align: justify;
-  padding: 20px;
-  height: auto;
-  display: none;
-  position: relative;
-  bottom: 3px;
-  border: 2px solid rgb(252, 244, 244);
-  font-family: "Permanent Marker", cursive;
+  padding: 0 20px;
+  font-family: "Dancing Script", cursive;
   color: rgb(42, 41, 41);
-  font-size: 12px;
+  font-size: 0px;
+  transition: font-size 2s;
 }
 
 .box:hover {
-  position: relative;
-  bottom: 13px;
-  .paragragh {
-    display: block;
+  p {
+    font-size: 15px;
+    padding: 10px 20px;
   }
 }
