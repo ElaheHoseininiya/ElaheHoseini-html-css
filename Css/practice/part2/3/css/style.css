@@ -5,65 +5,54 @@
 }
 
 body{
-    background: linear-gradient(to right,lightgray,rgb(112, 110, 110));
+    background: linear-gradient(to left ,rgb(37, 33, 33) , rgb(202, 196, 196));
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.box span{
+font-size: 200px;
 }
 .box{
-    border: 2px solid white;
-    height: 350px;
+    height: 300px;
     width: 250px;
-    margin: 20px  auto;
+    margin:50px auto;
+    border: 2px solid white;
+    text-align: justify;
+    padding: 20px;
+}
+.box  h1{
     text-align: center;
-    position: relative;
-}
-
-.box .text-1 p{
-    font-size: 20px;
     color: aqua;
-    /* font-family:; */
-    font-family:   'permanent marker',sans-serif;
-    transition-duration:2s;
-  
+    font-family: 'Dancing Script', cursive;
 }
 
+.box p{
+    font-size: 0;
+  
    
-
+}
 
 .box:hover{
-    background: linear-gradient(to right, rgb(63, 210, 246),rgb(38, 52, 177));
-    
-    #icon-s{
-        display: none;
-    }
-   .text-1{
-        font-size: 40px;
-   
-        color: black;
-        position: absolute;
-        bottom: 280PX;
-        left: 80px;
-    }
- 
-    .text-2 p{
-        
-    
-        margin-top: 70px;
-        display: block;
-        text-align: justify;
-    }
-
- }
-
-
-
- .text-2 p{
-  
-    font-size:15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    padding: 20px;
-    display: none;
-   transition-duration: 2s;
-   
+    background:linear-gradient(to left ,blue,rgb(0, 255, 221));
+     h1{
+    padding-bottom: 350px;
+    color: black;
 
 }
+   span{
+    /* display: none; */
+    font-size: 0;
+}
 
+p{
+    font-size: 15px;
+    transition:  font-size 2s;
+position: relative;
+bottom: 320px;
+color: white;
+}
+
+}
+ 
