@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(../image/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.box {
+  color: white;
+  width: 302px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 50px;
+  margin: auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 0;
+  transition: font-size 1s;
+}
+
+.box:hover {
+  font-size: 12px;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-shadow: 0px -1px 14px 4px;
+  h1 {
+    padding-bottom: 15px;
+  }
+}
