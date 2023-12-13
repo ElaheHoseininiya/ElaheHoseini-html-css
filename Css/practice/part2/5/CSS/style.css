@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(rgb(212, 209, 209), rgb(34, 33, 33));
+  background-attachment: fixed;
+}
+
+.box {
+  background-image: url(../image/mountain.jpg);
+  width: 350px;
+  border: 2px solid white;
+  margin: auto;
+  height: 530px;
+}
+
+.box2 h1 {
+  color: aqua;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Oswald", sans-serif;
+}
+.box2 p {
+  font-size: 0;
+  transition-duration: 2s;
+  text-align: justify;
+  font-family: "Dancing Script", cursive;
+}
+.box:hover {
+  h1 {
+    text-align: left;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .box2 {
+    color: white;
+    padding: 20px;
+    background: linear-gradient(rgb(6, 158, 178), rgba(0, 225, 255, 0));
+  }
+  .box2 p {
+    font-size: 15px;
+  }
+  .more {
+    display: block;
+  }
+}
+
+.more p {
+  color: white;
+  border: 2px solid rgb(15, 14, 14);
+  background-color: rgb(4, 133, 133);
+  width: 100px;
+  height: 20px;
+  margin: auto;
+  padding: 7px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  border-radius: 30px 0px 40px 30px;
+  font-size: 20px;
+}
+.more {
+  display: none;
+}
