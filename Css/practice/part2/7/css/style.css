@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(rgb(204, 201, 201), rgb(86, 115, 170));
+}
+
+.container {
+  background-image: url(../image/mountain.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 220px;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 10px;
+  margin: auto;
+  transition: width 1s;
+}
+
+.box {
+  background: linear-gradient(rgb(39, 94, 197), rgba(0, 225, 255, 0));
+
+  height: 100%;
+  border-radius: 8px;
+}
+.box h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Oswald", sans-serif;
+  transition: font-size 1s;
+}
+.box:hover {
+  h1 {
+    font-size: 0;
+  }
+  background: none;
+}
+.container:hover {
+  width: 70px;
+  border-radius: 30px;
+}
