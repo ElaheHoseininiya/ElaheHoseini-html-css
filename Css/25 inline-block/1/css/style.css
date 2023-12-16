@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+}
+.img1 {
+  height: 250px;
+  width: 150px;
+  /* border: 2px solid red; */
+
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+  background-image: url(../image/luffy.jpg);
+  background-size: cover;
+  padding-top: 80px;
+  box-shadow: 2px 2px 4px rgb(238, 84, 45);
+}
+
+.img2 {
+  height: 250px;
+  width: 150px;
+
+  box-shadow: 2px 2px 4px rgb(131, 231, 72);
+
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+  background-image: url(../image/Roronoa\ Zoro.jpg);
+  background-size: cover;
+  padding-top: 80px;
+}
+.img3 {
+  height: 250px;
+  width: 150px;
+
+  box-shadow: 2px 2px 4px rgb(245, 215, 44);
+
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+  background-image: url(../image/sanji.jpg);
+  background-size: cover;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 15px;
+  color: white;
+}
