@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    direction: rtl;
+    background-color: rgb(125, 111, 212);
+
+    }
+
+.right-menu{
+  padding-right: 100px;
+  position: fixed;
+}
+
+
+#main-menu li{
+
+    float: right;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    line-height: 40px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(48, 2, 57);
+}
+
+#main-menu li a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+#main-menu ul{
+    display: none;
+}
+
+
+#main-menu li:hover ul{
+
+    display: block;
+}
+
+#main-menu li:hover{
+    background-color: #eee;
+}
+
+#main-menu li:hover a{
+   color:#f441be;
+}
+
+.container .main .paragragh{
+    padding: 150px;
+    text-align: justify;
+    color:#f6e2f0;
+    height: 300px;
+
+}
+
+
+.container-card{
+    height: 400px;
+    width: 500px;
+    
+    margin: 100px auto;
+    
+    border-radius: 10px 10px 20px 30px;
+     box-shadow: 0 0 40px rgb(40,40,40) ;
+     position: relative;
+     bottom:20px ;
+padding-bottom: 100px;
+    }
+    
+    .card{
+    
+        height: 100%;
+        width: 180px;
+        
+        border-radius: 10px 20px 10px 30px;
+        box-shadow: 0 0 40px rgb(40,40,40) ;
+        overflow: hidden;
+        position: absolute;
+        top: -30px;
+        right: 20px;
+    }
+    
+    .card p{
+        padding-right: 15px;
+        margin: 5px;
+    }
+    
+    
+    .pic{
+        width: 100%;
+        height: 265px;
+    }
+    
+    .bio{
+    
+        width: 270px;
+        font-weight: bold;
+        text-align: justify;
+        position: absolute;
+        left:20px;
+        top: 40px;
+    }
