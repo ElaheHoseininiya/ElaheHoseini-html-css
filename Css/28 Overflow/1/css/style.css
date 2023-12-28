@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background-color: cornflowerblue;
+  position: relative;
+  padding: 20px;
+}
+.visible,
+.scroll,
+.atuo,
+.hidden {
+  height: 200px;
+}
+.visible-box {
+  background-color: rgb(6, 223, 93);
+  width: 200px;
+  height: 65px;
+  overflow: visible;
+}
+
+.scroll-box {
+  background-color: rgb(6, 223, 93);
+  width: 200px;
+  height: 65px;
+  overflow: scroll;
+  border: 2px solid;
+}
+
+.atuo-box {
+  background-color: rgb(6, 223, 93);
+  border: 2px solid;
+  width: 200px;
+  height: 65px;
+  border: 2px solid;
+
+  overflow: auto;
+}
+
+.hidden-box {
+  background-color: rgb(6, 223, 93);
+  width: 200px;
+  height: 65px;
+  overflow: hidden;
+  border: 2px solid;
+}
+
+.container p {
+  color: white;
+  font-size: 9px;
+  padding: 15px 0;
+}
+.container h1 {
+  font-size: 17px;
+}
+.hidden {
+  position: absolute;
+  right: 270px;
+  top: 20px;
+}

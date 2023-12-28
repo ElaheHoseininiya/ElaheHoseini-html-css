@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="visible">
+        <h1>overflow: visible</h1>
+        <p>
+          By default, the overflow is visible, meaning that it is not clipped
+          and it renders outside the element's box:
+        </p>
+
+        <div class="visible-box">
+          You can use the overflow property when you want to have better control
+          of the layout. The overflow property specifies what happens if content
+          overflows an element's box.
+        </div>
+      </div>
+      <div class="scroll">
+        <h1>Overflow: scroll</h1>
+
+        <p>
+          Setting the overflow value to scroll, the overflow is clipped and a
+          scrollbar is added to scroll inside the box. Note that this will add a
+          scrollbar both horizontally and vertically (even if you do not need
+          it):
+        </p>
+
+        <div class="scroll-box">
+          You can use the overflow property when you want to have better control
+          of the layout. The overflow property specifies what happens if content
+          overflows an element's box.
+        </div>
+      </div>
+      <div class="atuo">
+        <h1>Overflow: auto</h1>
+
+        <p>
+          The auto value is similar to scroll, only it add scrollbars when
+          necessary:
+        </p>
+
+        <div class="atuo-box">
+          You can use the overflow property when you want to have better control
+          of the layout. The overflow property specifies what happens if content
+          overflows an element's box.
+        </div>
+      </div>
+      <div class="hidden">
+        <h1>Overflow: hidden</h1>
+
+        <p>
+          With the hidden value, the overflow is clipped, and the rest of the
+          content is hidden:
+        </p>
+        <p>Try to remove the overflow property to understand how it works.</p>
+
+        <div class="hidden-box">
+          You can use the overflow property when you want to have better control
+          of the layout. The overflow property specifies what happens if content
+          overflows an element's box.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
