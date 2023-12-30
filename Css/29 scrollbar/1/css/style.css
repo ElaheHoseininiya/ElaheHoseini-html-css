@@ -1,0 +1,47 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.container{
+    padding: 50px;
+    text-align: center;
+    background:linear-gradient(to right,rgb(207, 160, 232),rgb(74, 179, 240),rgb(237, 247, 247))
+}
+
+.container h1{
+    color: rgb(99, 11, 182);
+    padding: 20px;
+}
+.container h4{
+   
+    color: rgb(223, 12, 82);
+
+    padding: 20px;
+  
+}
+.container .paragragh{
+    border: 10px double rgb(247, 5, 207);
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(109, 16, 196);
+}
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(242, 171, 228); 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(130, 32, 227); 
+    border-radius: 10px;
+
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:yellow; 
+  }
