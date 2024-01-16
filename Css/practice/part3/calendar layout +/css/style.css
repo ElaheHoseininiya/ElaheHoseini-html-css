@@ -1,0 +1,71 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+position: relative;
+margin: 10px;
+}
+
+
+
+.header  {
+    position: absolute;
+    top:30px;
+    left:400px;
+
+}
+
+.month{
+    height: 130px;
+    width: 100%;
+    background-color: darkblue;
+    position: absolute;
+    top: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.box{
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+
+    position: relative;
+    top: 200px;
+}
+.day-of-week{
+    height: 50px;
+    background-color: darkgray;
+}
+.day-of-week ul li{
+    float: left;
+    padding: 15px 60px;
+    list-style-type: none;
+}
+.date-of-day ul li{
+
+    display: inline-block;
+
+    list-style-type: none;
+
+    padding: 5px 60px;
+}
+
+.date-of-day  li{
+    list-style-type: none;
+    float: left;
+    width: 20px;
+    text-align: center;
+ 
+    color: #7c7575;
+
+}
+.date-of-day  #ten{
+
+
+background: #0611d8;
+color: white ;
+}
