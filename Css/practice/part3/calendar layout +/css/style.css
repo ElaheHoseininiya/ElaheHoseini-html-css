@@ -1,71 +1,76 @@
-*{
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.container{
-position: relative;
-margin: 10px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-
-.header  {
-    position: absolute;
-    top:30px;
-    left:400px;
-
+.container {
+  position: relative;
+  margin: 10px;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+}
+.header {
+  position: absolute;
+  top: 30px;
+  left: 350px;
 }
 
-.month{
-    height: 130px;
-    width: 100%;
-    background-color: darkblue;
-    position: absolute;
-    top: 80px;
-    color: white;
-    text-align: center;
-    padding-top: 40px;
+.month {
+  height: 130px;
+  width: 100%;
+  background-color: darkblue;
+  position: relative;
+  top: 80px;
+  color: white;
+  padding-top: 40px;
 }
-.box{
-    height: 300px;
-    width: 100%;
-    background-color: lightgray;
-
-    position: relative;
-    top: 200px;
-}
-.day-of-week{
-    height: 50px;
-    background-color: darkgray;
-}
-.day-of-week ul li{
-    float: left;
-    padding: 15px 60px;
-    list-style-type: none;
-}
-.date-of-day ul li{
-
-    display: inline-block;
-
-    list-style-type: none;
-
-    padding: 5px 60px;
+.month #left {
+  position: absolute;
+  top: 50px;
+  left: 10px;
 }
 
-.date-of-day  li{
-    list-style-type: none;
-    float: left;
-    width: 20px;
-    text-align: center;
- 
-    color: #7c7575;
-
+.month #right {
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
 }
-.date-of-day  #ten{
+.month .text {
+  text-align: center;
+}
 
+.box {
+  height: 200px;
+  width: 100%;
+  background-color: lightgray;
+  position: relative;
+  top: 80px;
+}
+.day-of-week {
+  height: 50px;
+  padding-top: 15px;
+  background-color: darkgray;
+}
+.day-of-week ul li {
+  width: 14.28%;
+  float: left;
+  text-align: center;
+  list-style-type: none;
+}
+.date-of-day ul li {
+  float: left;
+  list-style-type: none;
 
-background: #0611d8;
-color: white ;
+  width: 14.28%;
+  text-align: center;
+  padding: 5px;
+}
+
+.date-of-day #ten a {
+  display: inline-block;
+  background: #0611d8;
+  color: white;
+  text-decoration: none;
 }
