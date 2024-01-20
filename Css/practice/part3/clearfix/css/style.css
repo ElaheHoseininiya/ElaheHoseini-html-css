@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-cat{
+    overflow: auto;
+    border: 2px solid;
+    background-color: burlywood;
+    margin:  30px auto;
+    width:60%;
+}
+.box-cat p{
+    float: left;
+    padding: 1px 7px;
+}
+.box-cat img{
+height: 50px;
+width: 65px;
+float: left;
+padding: 2px;
+
+}
+
+.box-dog{
+    overflow: auto;
+    border: 2px solid;
+    background-color: rgb(120, 231, 203);
+    margin:  30px auto;
+    width:60%;
+}
+.box-dog p{
+    float: right;
+    padding: 1px 9px;
+}
+.box-dog img{
+height: 50px;
+width: 65px;
+float: right;
+padding: 2px;
+
+}
+
+
