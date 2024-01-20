@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/lion.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(213, 214, 214);
+}
+.container .logo {
+  position: absolute;
+  top: 50px;
+  padding: 5px;
+}
+.container .title {
+  position: absolute;
+
+  top: 300px;
+  left: 400px;
+}
+.container .border {
+  width: 100px;
+  border-bottom: 2px solid gray;
+  position: absolute;
+  top: 350px;
+  left: 450px;
+}
+
+.container .text {
+  position: absolute;
+  top: 370px;
+  left: 450px;
+}
+
+.container .some-text {
+  position: absolute;
+  top: 610px;
+}
