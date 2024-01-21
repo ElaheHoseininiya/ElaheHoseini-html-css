@@ -1,0 +1,55 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(rgb(59, 59, 67) ,  rgb(3, 99, 81));
+    background-attachment: fixed;
+}
+.container .title{
+color: white;
+text-align: center;
+padding: 15px;
+}
+.container .text{
+text-align: center;
+
+}
+.floatbox{
+    height: 300px;
+    width: 90%;
+    border: 1px solid white;
+    margin: 50px auto;
+}
+.floatbox .floatbox-top .box{
+    height: 150px;
+    width: 25%;
+    border: 1px solid  wheat;
+    float: left;
+}
+
+.floatbox .floatbox-bottom .image{
+    height: 150px;
+    width: 25%;
+    border: 1px solid  wheat;
+    float: left;
+}
+
+.floatbox .floatbox-bottom .image img{
+    height: 100%;
+    width: 100%;
+}
+.floatbox .floatbox-top .box .title-box{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.floatbox .floatbox-top .box .paragragh{
+text-align: justify;
+padding: 20px;
+font-size: 12px;
+}
