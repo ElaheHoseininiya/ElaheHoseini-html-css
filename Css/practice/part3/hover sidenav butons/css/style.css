@@ -3,43 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .container {
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(rgb(44, 235, 238), rgb(3, 89, 95));
+  padding: 20px 0;
+  background-size: cover;
+}
+
+.sidenav .box {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 2;
+  background-color: rgb(37, 51, 84);
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 15px;
+  a {
+    text-decoration: none;
+    color: rgb(37, 51, 84);
+  }
+}
+.sidenav .box:hover {
+  width: 100px;
+  transition: 400ms;
+  a {
+    color: white;
+  }
 }
 
 .container .title h1 {
   text-align: center;
-  padding-top: 20px;
+  position: relative;
+  bottom: 200px;
 }
 .container .description p {
   text-align: justify;
   padding: 30px 120px;
   color: rgb(93, 93, 93);
-}
-.container .boxs {
   position: relative;
-  bottom: 370px;
-}
-.container .boxs .box {
-  height: 50px;
-  width: 50px;
-  margin: 10px 0;
-  background-color: rgb(8, 8, 8);
-  border-radius: 0 5px 5px 0;
-  a {
-    text-decoration: none;
-    color: white;
-    display: none;
-    padding-top: 15px;
-    padding-left: 30px;
-  }
-}
-.container .boxs .box:hover {
-  width: 100px;
-  transition: 400ms;
-  a {
-    display: inline-block;
-  }
+  bottom: 200px;
 }
