@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(rgb(44, 235, 238), rgb(3, 89, 95));
+}
+
+.container .title h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.container .description p {
+  text-align: justify;
+  padding: 30px 120px;
+  color: rgb(93, 93, 93);
+}
+.container .boxs {
+  position: relative;
+  bottom: 370px;
+}
+.container .boxs .box {
+  height: 50px;
+  width: 50px;
+  margin: 10px 0;
+  background-color: rgb(8, 8, 8);
+  border-radius: 0 5px 5px 0;
+  a {
+    text-decoration: none;
+    color: white;
+    display: none;
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+}
+.container .boxs .box:hover {
+  width: 100px;
+  transition: 400ms;
+  a {
+    display: inline-block;
+  }
+}
