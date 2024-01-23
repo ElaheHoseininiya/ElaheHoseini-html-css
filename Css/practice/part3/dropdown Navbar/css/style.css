@@ -1,96 +1,88 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-.ul-main{
-        margin: 10px auto;
-
-width: 95%;
-height: 50px;
-background-color:black;
-list-style-type: none;
-
+.ul-main {
+  margin: 10px auto;
+  width: 95%;
+  height: 50px;
+  background-color: black;
+  list-style-type: none;
 }
 
 .ul-main li {
-    float: left;
-    padding: 15px;
-
+  float: left;
+  padding: 15px;
 }
-.ul-main li a{
-    text-decoration: none;
-    color: white;
-
+.ul-main li a {
+  text-decoration: none;
+  color: white;
 }
 
-.ul-main ul{
-  
-    width: 100px;
-    display: none;
+.ul-main ul {
+  width: 100px;
+  display: none;
   list-style-type: none;
-
 }
-.ul-main li:hover ul{
-  
-
-    display: block;
- 
-
+.ul-main li:hover ul {
+  display: block;
 }
 
-.ul-main li:hover{
-  
-   background-color: rgb(9, 97, 97);
-  height:50px ;
+.ul-main #background:hover {
+  height: 47px;
+  background-color: rgb(9, 97, 97);
 }
 .ul-main ul li {
-    background-color: rgb(247, 243, 243);
-    width: 120px;
-    height: 35px;
-    box-shadow: 1px 7px 7px 0px #837d7d;
-    position: relative;
-    top: 16px;
-
+  background-color: rgb(247, 243, 243);
+  width: 180px;
+  height: 35px;
+  box-shadow: 1px 7px 7px 0px #837d7d;
+  position: relative;
+  top: 16px;
+  right: 14px;
 }
-.ul-main ul li a{
-
-    color: rgb(16, 13, 13);
-    text-decoration: none;
-
-
+.ul-main ul li a {
+  color: rgb(16, 13, 13);
+  text-decoration: none;
 }
 
-.dropup  li a{
-    display: inline-block;
- height: 60px;
- width:80px;
- background-color: cadetblue;
- color: white;
- text-decoration: none;
- padding: 18px 15px;
- position: relative;
- top: 100px;
- left: 20px;
+.ul-up li a {
+  text-decoration: none;
 }
 
-.dropup #ul-inside li a{
-    width: 150px;
-    background-color: aliceblue;
-    box-shadow: 1px 7px 7px 0px #837d7d;
-    color: black;
-    height: 50px;
+#background-dropup {
+  background-color: blue;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  padding-top: 10px;
+  list-style-type: none;
+  position: relative;
+  top: 80px;
+  left: 20px;
+}
+#color-droppup {
+  color: white;
+}
+.ul-up ul {
+  width: 100px;
   display: none;
+  list-style-type: none;
 }
-.dropup #ul-inside li {
-    position: relative;
-    bottom: 200px;
- 
-}
-
-
-.dropup:hover #ul-inside li a{
+.ul-up li:hover ul {
+  height: 120px;
+  width: 150px;
+  background-color: rgb(248, 248, 248);
   display: block;
+  box-shadow: 1px 7px 7px 0px #837d7d;
+  position: relative;
+  bottom: 150px;
+  text-align: left;
+}
+#inside-ul li a {
+  color: #837d7d;
+  display: inline-block;
+  padding: 10px;
 }
