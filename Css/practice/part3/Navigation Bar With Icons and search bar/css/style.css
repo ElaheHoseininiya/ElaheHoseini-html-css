@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 10px;
+    height: 50px;
+    background-color: rgb(12, 0, 54);
+}
+.icon{
+
+    padding:12px;
+    float: left;
+ color: white;
+   
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 5px;
+}
+
+#background{
+    background-color:rgb(34, 148, 242);
+    height: 50px;
+}
+
+#search{
+    height:40px;
+    position: relative;
+    top: 5px;
+    left: 450px;
+    padding: 10px 5px;
+}
