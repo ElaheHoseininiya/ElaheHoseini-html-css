@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Navigation Bar</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -11,31 +11,26 @@
     />
   </head>
   <body>
-    <div class="box">
-      <div class="icon"
-      id="background">
-        <span class="material-symbols-outlined"> home </span
-        ><a href="#">Home</a>
-      </div>
-
-      <div class="icon">
-        <span class="material-symbols-outlined"> search </span
-        ><a href="#">Search</a>
-      </div>
-      <div class="icon">
-        <span class="material-symbols-outlined"> mail </span>
-        <a href="#">contact</a>
-      </div>
-      <div class="icon">
-
-        <span class="material-symbols-outlined"> person </span>
-        <a href="#">login</a>
-      </div>
-
-      <input  type="text"  placeholder="Search.."  id="search"> 
-
-
-      
+    <div class="navar">
+      <input type="text" placeholder="Search.." class="search" />
+      <ul>
+        <li  class="background">
+          <span class="material-symbols-outlined"> home </span> 
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined"> search </span>
+          <a href="#">Search</a>
+        </li>        
+        <li>
+          <span class="material-symbols-outlined"> mail </span>
+          <a href="#">contact</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined"> person </span>
+          <a href="#">login</a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
