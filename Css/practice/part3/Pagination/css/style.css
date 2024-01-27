@@ -7,34 +7,39 @@ body {
   background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
   height: 100vh;
 }
-.Pagination {
+.pagination {
+  display: inline-block;
   background-color: rgb(191, 191, 191);
-  width: 300px;
-  margin: auto;
-  text-align: center;
-  padding-top: 9px;
   position: relative;
-  top: 500px;
+  top: 460px;
+  left: 450px;
+  height: 31px;
+}
+ul {
+  padding-top: 7px;
+  list-style-type: none;
+}
+li {
+  float: left;
 }
 
-.Pagination a {
-  position: relative;
-  bottom: 9px;
+li a {
   text-decoration: none;
-
-  padding: 10px;
- 
- 
+  color: black;
+  padding: 7px 10px;
 }
-
-
-.Pagination a:hover {
-  background-color: aliceblue;
+li span {
+  position: relative;
+  bottom: 7px;
+  padding: 3px 0px;
 }
-.Pagination span:hover {
-    background-color: aliceblue;
-   
-  } 
+li a:hover {
+  background-color: rgb(233, 233, 234);
+}
+li span:hover {
+  background-color: rgb(233, 233, 234);
+}
 #two {
   background-color: rgb(28, 144, 252);
+  color: white;
 }
