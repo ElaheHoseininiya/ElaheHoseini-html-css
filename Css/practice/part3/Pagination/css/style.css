@@ -6,6 +6,7 @@
 body {
   background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
   height: 100vh;
+  background-attachment: fixed;
 }
 .pagination {
   display: inline-block;
