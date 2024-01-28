@@ -3,36 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
   height: 100vh;
   background-attachment: fixed;
 }
-.pagination {
-  display: inline-block;
-  background-color: rgb(191, 191, 191);
-  position: relative;
-  top: 460px;
-  left: 450px;
-  height: 31px;
-}
+
+
 ul {
-  padding-top: 7px;
+  height: 31px;
+  width: 217px;
+  background-color: rgb(191, 191, 191);
+  margin: auto;
+  transform: translatey(400px);
   list-style-type: none;
 }
+
 li {
   float: left;
+  padding-top: 7px;
 }
 
 li a {
   text-decoration: none;
   color: black;
   padding: 7px 10px;
+  transition: background-color 1s;
 }
 li span {
   position: relative;
   bottom: 7px;
   padding: 3px 0px;
+  transition: background-color 1s;
 }
 li a:hover {
   background-color: rgb(233, 233, 234);
