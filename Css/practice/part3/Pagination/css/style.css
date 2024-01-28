@@ -5,11 +5,10 @@
 }
 
 
-
 .container{
 
    background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
-  height: 100vh;
+  height:200vh;
   background-attachment: fixed;
 }
 ul {
