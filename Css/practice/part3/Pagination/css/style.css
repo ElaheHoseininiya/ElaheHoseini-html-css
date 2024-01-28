@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
+
+
+.container{
+
+   background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
   height: 100vh;
   background-attachment: fixed;
 }
-
-
 ul {
   height: 31px;
   width: 217px;
