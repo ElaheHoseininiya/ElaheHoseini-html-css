@@ -8,14 +8,18 @@
 .container{
 
    background: linear-gradient(rgb(125, 128, 127), rgb(62, 171, 165));
-  height:200vh;
+   height: 100vh;
+  min-height: 100%;
+  overflow: auto;
+
   background-attachment: fixed;
 }
 ul {
   height: 31px;
-  width: 217px;
+  width: 245px;
   background-color: rgb(191, 191, 191);
   margin: auto;
+  display:block;
   transform: translatey(400px);
   list-style-type: none;
 }
@@ -46,4 +50,6 @@ li span:hover {
 #two {
   background-color: rgb(28, 144, 252);
   color: white;
+
+
 }
