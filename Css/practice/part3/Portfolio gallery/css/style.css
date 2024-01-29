@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(rgb(44, 62, 82), rgb(62, 118, 135));
+  height: 100vh;
+  overflow: auto;
+  font-family: 'Poppins', sans-serif;
+}
+.box {
+  width: 450px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.header .title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+  width: 450px;
+}
+.header .text {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.main-box {
+  width: 455px;
+  background-color: white;
+}
+.horse-img {
+  position: relative;
+  right: 5px;
+}
+.horse-img img {
+  height: 250px;
+  width: 141px;
+  float: left;
+  border: 10px solid white;
+  position: relative;
+  bottom: 20px;
+  margin: 5px;
+}
+
+.horse-text .texts {
+  font-size: 10px;
+  float: left;
+  width: 150px;
+  position: relative;
+  bottom: 10px;
+  left: 7px;
+}
+
+.horse-text .texts h1 {
+  padding-bottom: 5px;
+}
+
+.lion-boxs img {
+  height: 300px;
+  width: 455px;
+  padding: 10px;
+}
+.lion-text {
+  padding: 10px 10px 30px 10px;
+}
+
+.lion-text h3 {
+  padding-bottom: 5px;
+}
