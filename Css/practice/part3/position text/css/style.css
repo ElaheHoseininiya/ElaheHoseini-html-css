@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    overflow: auto;
+}
+.box-lion{
+
+    background: url(../images/lion.jpg);
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+}
+.menu{
+    background-color: lightgray;
+height: 40px;
+}
+.box-lion ul li{
+    float: left;
+    padding: 10px;
+
+}
+
+.box-lion  .help a{
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 50px;
+    background-color: rgb(56, 155, 194);
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+ 
+
+}
+ul li:hover{
+    background-color: black;
+    display: inline-block;
+    height: 40px;
+    a{
+        color: white;
+    }
+
+}
+
+.topleft{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+}
+.topright{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    color: white;
+}
+
+.centerd{
+    position: absolute;
+    top: 300px;
+left: 50%;
+right: 50%;
+color: aqua;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 0;
+    left:  10px;
+    color: white;
+}
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right:  10px;
+    color: white;
+}
+
+.box-cat{
+    background-image: url(../images/cat.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.title{
+    background-color:rgb(77, 72, 72) ;
+    height: 120px;
+    text-align: center;
+    color: white;
+    padding-top:35px;
+    font-size: small;
+}
+
+.bottomright-box{
+    height: 110px;
+    width: 200px;
+    position: absolute;
+   bottom:10px;
+   right: 10px;
+   background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.bottomright-box h1{
+    color: aqua;
+}
+.bottomright-box p{
+    color: white;
+  
+}
