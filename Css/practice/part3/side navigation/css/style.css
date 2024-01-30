@@ -8,18 +8,22 @@
   height: 100vh;
   font-family: "Roboto", sans-serif;
 }
-.text-box {
-  width: 80%;
-  float: right;
+
+.box {
+  height: 100%;
+  width: 100%;
 }
 .nav {
-  width: 20%;
+  width: 12%;
   height: 100%;
   background-color: rgb(106, 104, 104);
 }
+
 ul {
   list-style-type: none;
-  padding: 15px;
+  position: relative;
+  top: 10px;
+  left: 5px;
 }
 ul li {
   padding: 3px;
@@ -28,13 +32,17 @@ ul li a {
   text-decoration: none;
   color: white;
 }
-
-.tile {
+.text-box {
+  width: 85%;
+  height: 100%;
+  background-color: white;
   text-align: center;
+  float: right;
   padding: 20px;
 }
 .text {
   text-align: justify;
-  padding: 20px;
-  font-weight: bold;
+}
+.title {
+  padding: 10px;
 }
