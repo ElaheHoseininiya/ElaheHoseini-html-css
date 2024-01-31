@@ -10,7 +10,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .box {
-  width: 450px;
+  width:50%;
   margin: 50px auto;
   position: relative;
 }
@@ -18,7 +18,7 @@
 .header .title {
   padding-bottom: 20px;
   border-bottom: 2px solid white;
-  width: 450px;
+  width: 90%;
 }
 .header .text {
   padding-top: 15px;
@@ -26,7 +26,7 @@
 }
 
 .main-box {
-  width: 455px;
+  width: 90%;
   background-color: white;
 }
 .horse-img {
@@ -34,8 +34,8 @@
   right: 5px;
 }
 .horse-img img {
-  height: 250px;
-  width: 141px;
+  height: 60%;
+  width: 31%;
   float: left;
   border: 10px solid white;
   position: relative;
@@ -44,12 +44,13 @@
 }
 
 .horse-text .texts {
-  font-size: 10px;
   float: left;
-  width: 150px;
+  width: 32%;
+  padding: 5px;
   position: relative;
   bottom: 10px;
   left: 7px;
+ 
 }
 
 .horse-text .texts h1 {
@@ -57,8 +58,9 @@
 }
 
 .lion-boxs img {
-  height: 300px;
-  width: 455px;
+
+  width:100%;
+  height:70%;
   padding: 10px;
 }
 .lion-text {
