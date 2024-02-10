@@ -65,6 +65,7 @@
 .text p {
   text-align: justify;
 }
-:not(h1) {
+
+p:first-child {
   color: white;
 }
