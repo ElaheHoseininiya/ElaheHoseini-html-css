@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/srtyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Survey Form</h1>
+      </div>
+      <form action="">
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+        /><br /><br />
+
+        <label for="Email">Email</label><br />
+        <input
+          type="email"
+          id="Email"
+          placeholder="Enter your email"
+        /><br /><br />
+
+        <label for="Age">Age</label><br />
+        <input type="text" id="Age" placeholder="Enter your age" /><br /><br />
+
+        <label for="option">Which option best describes you?</label><br /><br />
+        <select name="select" id="option">
+          <option>student</option>
+          <option>professional</option>
+        </select>
+        <br><br><br>
+
+        <label for="title-r"> would you recommend w3Schools to a friend?</label>
+        <input class="radio" type="radio" id="yes" name="chose" /><br />
+        <label class="radio-label1" for="yes">Yes</label><br />
+        <input class="radio-no" type="radio" id="no" name="chose" /><br />
+        <label class="radio-label1" for="no">No</label><br />
+        <input class="radio-maybe" type="radio" id="maybe" name="chose" /><br />
+        <label class="radio-label1" for="maybe">Maybe</label>
+
+        <br><br>
+        <label for="lang"
+          >Languages and Frameworks known (check all that apply)</label
+        >
+        <input type="checkbox" id="c" name="c" />
+        <label class="label-ckeck" for="c">c</label>
+        <input type="checkbox" id="c++" name="c++" />
+        <label class="label-ckeck" for="c++">c++</label>
+        <input type="checkbox" id="c#" name="c#" />
+        <label class="label-ckeck" for="#">c#</label>
+        <input type="checkbox" id="ja" name="java" />
+        <label class="label-ckeck" for="ja">java</label>
+
+        <input type="checkbox" id="py" name="python" />
+        <label class="label-ckeck" for="py">python</label>
+        <input type="checkbox" id="js" name="JavaScript" />
+        <label class="label-ckeck" for="js">JavaScript</label>
+        <input type="checkbox" id="re" name="react" />
+        <label class="label-ckeck" for="re">React</label>
+        <input type="checkbox" id="ag" name="Angular" />
+        <label class="label-ckeck" for="ag">Angular</label>
+        <input type="checkbox" id="dj" name="Django" />
+        <label class="label-ckeck" for="dj">Django</label>
+        <input type="checkbox" id="sp" name="spring" />
+        <label class="label-ckeck" for="sp">spring</label>
+        <br><br>
+        <label>Any comments or suggestions</label>
+        <input type="text" /><br><br>
+        <input type="submit"/>
+      </form>
+    </div>
+  </body>
+</html>
