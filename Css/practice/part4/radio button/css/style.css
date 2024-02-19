@@ -1,0 +1,39 @@
+form{
+    text-align: center;
+    color: rgb(176, 174, 174);
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+}
+body{
+    background-color: black;
+    color: darkgrey;
+}
+
+input{
+    border-bottom:2px white solid ;
+    position: relative;
+    right: 130px;
+    top: 30px;
+    
+}
+label{
+    position: relative;
+    right: 120px;
+    top: 30px;
+    font-size: 18px;
+
+}
+label:hover{
+    color: white;
+}
+#title{
+    position: relative;
+   left:5px;
+    top: 30px;
+}
+hr{
+    position: relative;
+    top: 30px;
+   margin:40px;
+}
