@@ -33,8 +33,8 @@
     background: green;
     width: 150px;
     height: 150px;
-    position: absolute;
+    /* position: absolute;
     top: 50px;
-    left: 50px;
+    left: 50px; */
     z-index: 1;
 }
