@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: rgb(222, 147, 147);
+}
+
+div + p {
+  background-color: blue;
+}
+div ~ p {
+  color: rgb(214, 8, 241);
+}

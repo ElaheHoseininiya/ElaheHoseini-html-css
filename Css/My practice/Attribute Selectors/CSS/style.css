@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100%;
+}
+a {
+  display: block;
+  margin: 10px;
+}
+a[target] {
+  background-color: rgb(125, 229, 73);
+}
+a[target="_blank"] {
+  background-color: rgb(25, 19, 136);
+}
+
+[title~="cat"] {
+  border: 5px solid rgb(208, 31, 22);
+}
+.box {
+  padding: 10px;
+}
+.box p {
+  margin: 10px;
+}
+[class|="top"] {
+  background: rgb(255, 200, 0);
+}
+.box2 {
+  margin: 10px;
+}
+.box2 p {
+  margin: 20px;
+}
+[id^="top"] {
+  background: rgb(5, 153, 207);
+}
+[class$="test"] {
+  background: rgb(166, 6, 177);
+}
+[class*="se"] {
+  background: rgb(10, 246, 191);
+}
+form {
+  padding: 15px;
+  background-color: rgb(197, 198, 198);
+  width: 20%;
+  margin: 100px auto;
+}
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(245, 180, 215);
+}
+
+input[type="button"] {
+  width: 150px;
+  border-radius: 50%;
+  border: 0;
+  display: block;
+  background-color: rgb(219, 21, 206);
+}
