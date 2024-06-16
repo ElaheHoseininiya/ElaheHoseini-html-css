@@ -1,0 +1,20 @@
+.container{
+    width: 550px;
+    height: 550px;
+    padding: 5px;
+    border: 2px dotted red;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    /* flex-direction: row;  ==> defult */
+    /* flex-direction: row-reverse; */
+   
+}
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
