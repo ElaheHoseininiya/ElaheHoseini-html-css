@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+
+    height: 400px;
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row  wrap;
+}
+
+.item1{
+
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.container2{
+    height:400px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row  wrap-reverse;
+}
+
+.item2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(74, 176, 74);
+    margin: 5px;
+}
+
+.container3{
+    height:400px;
+    width: 300px;
+    border: 2px solid rgb(213, 18, 164);
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.item3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(85, 209, 234);
+    margin: 5px;
+}
