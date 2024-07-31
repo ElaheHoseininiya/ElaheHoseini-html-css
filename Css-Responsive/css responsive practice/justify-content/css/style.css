@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  height: 600px;
+  width: 500px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item1 {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  background-color: green;
+}
+
+.container2 {
+  height: 400px;
+  width: 500px;
+  border: 5px dotted blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.item2 {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: pink;
+}
+
+.container3 {
+  height: 200px;
+  width: 500px;
+  border: 5px solid yellow;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.item3 {
+  background-color: chocolate;
+  height: 80px;
+  width: 80px;
+  margin: 8px;
+}
+
+.container4 {
+  height: 200px;
+  width: 500px;
+  border: 5px solid rgb(153, 255, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item4 {
+  background-color: rgb(30, 204, 210);
+  height: 80px;
+  width: 80px;
+  margin: 8px;
+}
+
+.container5 {
+  height: 200px;
+  width: 800px;
+  border: 5px solid rgba(9, 32, 109, 0.412);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item5 {
+  background-color: rgb(20, 1, 70);
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+.container6 {
+  height: 600px;
+  width: 800px;
+  border: 5px solid rgba(230, 22, 126, 0.412);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item6 {
+  background-color: rgb(201, 211, 17);
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+.container7 {
+  height: 600px;
+  width: 800px;
+  border: 5px solid rgba(195, 22, 230, 0.412);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item7 {
+  background-color: rgb(17, 182, 211);
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+.container8 {
+  direction: rtl;
+  height: 600px;
+  width: 800px;
+  border: 5px solid rgba(230, 22, 22, 0.412);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item8 {
+  background-color: rgb(181, 201, 167);
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+.container9 {
+
+  height: 600px;
+  width: 800px;
+  border: 5px solid rgba(43, 230, 22, 0.412);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item9 {
+  background-color: rgb(132, 5, 146);
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
