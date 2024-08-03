@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    border: 5px dotted red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexitem{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    margin: 2px;
+}
