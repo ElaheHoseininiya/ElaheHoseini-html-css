@@ -3,41 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container:hover{
-  .item1{
-    order:3;
+.container:hover {
+  .item1 {
+    order: 3;
   }
-  .item2{
-    order:1;
+  .item2 {
+    order: 1;
   }
-  .item3{
+  .item3 {
     order: 4;
   }
-  .item4{
-    order:2;
+  .item4 {
+    order: 2;
   }
 }
 .container-box {
   display: flex;
-
+  height: 250px;
 }
 
 .item {
-    width: 160px;
-  height: 200px;
+  width: 200px;
+  overflow: hidden;
   margin: 5px;
 }
 
 .item img {
-  height: 100%;
   width: 100%;
-  
 }
-
