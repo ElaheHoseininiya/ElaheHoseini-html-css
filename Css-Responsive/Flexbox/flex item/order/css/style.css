@@ -3,17 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
+.container{
     background-color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.container {
+.container:hover{
+  .item1{
+    order:3;
+  }
+  .item2{
+    order:1;
+  }
+  .item3{
+    order: 4;
+  }
+  .item4{
+    order:2;
+  }
+}
+.container-box {
   display: flex;
-  border: 2px solid red;
+
 }
 
 .item {
