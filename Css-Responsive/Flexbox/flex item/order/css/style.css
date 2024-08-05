@@ -26,15 +26,17 @@
 }
 .container-box {
   display: flex;
-  height: 250px;
+  height: 200px;
+  width: 800px;
 }
 
 .item {
-  width: 200px;
+  width: 25%;
   overflow: hidden;
   margin: 5px;
 }
 
 .item img {
   width: 100%;
+  height: auto;
 }
