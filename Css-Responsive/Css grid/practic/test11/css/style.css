@@ -1,0 +1,32 @@
+
+
+
+
+.grid{
+    display: grid;
+   /* grid-template-columns: 200px  200px 200px;   */
+   /* grid-template-columns: 200px  auto 200px;   */
+   /* grid-template-columns: auto  auto auto;   */
+   /* grid-template-columns: repeat(3,auto); */
+   /* grid-template-columns: repeat(3,1fr); */
+   grid-template-columns: 2fr 1fr 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+
+.item{
+
+    padding: 3rem;
+    background-color: #333;
+    color: white;
+    border:  1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
