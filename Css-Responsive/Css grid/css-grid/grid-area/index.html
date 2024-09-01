@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          "box1 box2 box2 box3 box4 box4"
+          "box1  box2 box2 box5 box6 box7"
+          "box1 box8 box8 box5  box9 box7";
+      }
+
+      .box1 {
+        grid-area: box1;
+      }
+      .box2 {
+        grid-area: box2;
+      }
+      .box3 {
+        grid-area: box3;
+      }
+
+      .box4 {
+        grid-area: box4;
+      }
+
+      .box5 {
+        grid-area: box5;
+      }
+      .box6 {
+        grid-area: box6;
+      }
+      .box7 {
+        grid-area: box7;
+      }
+      .box8 {
+        grid-area: box8;
+      }
+      .box9 {
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5,
+      .box6,
+      .box7,
+      .box8,
+      .box9 {
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1 box"></div>
+      <div class="box2 box"></div>
+      <div class="box3 box"></div>
+      <div class="box4 box"></div>
+      <div class="box5 box"></div>
+      <div class="box6 box"></div>
+      <div class="box7 box"></div>
+      <div class="box8 box"></div>
+      <div class="box9 box"></div>
+    </div>
+  </body>
+</html>
