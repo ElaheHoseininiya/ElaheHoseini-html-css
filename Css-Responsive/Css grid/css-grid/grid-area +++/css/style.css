@@ -1,0 +1,26 @@
+.My-Container{
+    background-color:#FF5722;
+    color:#fff;
+    display: grid;
+    grid-template-areas: 'MyItem1 MyItem1 MyItem2 MyItem2';
+   }
+   
+   .MyItem{
+    background-color:#f2f2f2;
+    color:#000; 
+    font-size:25px;
+    margin:5px;
+    padding:20px;
+    text-align:center;
+   }
+   
+   .Item1{
+    grid-area: MyItem1;
+    background-color: yellow !important;
+   }
+   
+   .Item2{
+    grid-area: MyItem2;
+    background-color: yellow !important;
+   }
+   
