@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    border: 5px solid rgb(8, 1, 15);
+    padding: 20px;
+    text-align: center;
+}
+.item1{
+    background-color:palevioletred;
+}
+
+
+.item2{
+    background: #ffd166;
+}
+
+.item3{
+    background: #06d6a0;
+}
+
+.item4{
+    background: #118ab2;
+}
+
+.item5{
+    background: #073b4c;
+}
+
+.item6{
+    background: #e05311;
+}
+.item7{
+    background: #48b70d;
+
+}
+.item8{
+    background: #e01191;
+}
+.item9{
+    background: #4f11e0;
+}
+.item10{
+    background: #11e091;
+}
+
+
